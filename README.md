@@ -13,3 +13,9 @@ Simple and effective QR code generator deployed on AWS
 3. The lambda function uses the qrcode library to generate the QR code and stores it in a S3 bucket using the boto3 library.
 
 4. The object link is then returned to the user client and a display box is used to display the generated image with an option to download.
+
+
+## Features
+1. Simple and effecitve.
+2. Serverless - no infrastructure to manage.
+3. Scalable - can scale to thousands of requests per second.
